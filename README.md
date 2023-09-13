@@ -14,8 +14,7 @@ SQL Queries:
 03. [Data Cleaning](https://console.cloud.google.com/bigquery?sq=979731993765:45fe7bf71e6a4e37986b37f02296cbae&project=case-study-1-398516)
 04. [Data Analysis](https://console.cloud.google.com/bigquery?sq=979731993765:3a0d1911df064b9d93afe17dcabbe96d&project=case-study-1-398516&ws=!1m4!1m3!8m2!1s979731993765!2s3a0d1911df064b9d93afe17dcabbe96d)
 05. [Renaming Columns](https://console.cloud.google.com/bigquery?sq=979731993765:e406e862513b4307ab61db82c02bf870&project=case-study-1-398516)
-06. [Data Summary](https://console.cloud.google.com/bigquery?sq=979731993765:e4fb4faaa309402fa85465a0353fd921&project=case-study-1-398516)
-07. [Combined and Cleaned Data Table ](https://console.cloud.google.com/bigquery?sq=979731993765:3dbf9cf298a64b18bfe1d310a89850a0&project=case-study-1-398516)
+06. [Combined and Cleaned Data Table ](https://console.cloud.google.com/bigquery?sq=979731993765:3dbf9cf298a64b18bfe1d310a89850a0&project=case-study-1-398516)
 
 Data Visualizations: [Tableau Public Dashboard 1](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1)
                      [Tableau Public Dashboard 2](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_2)
@@ -66,6 +65,7 @@ Three questions will guide the future marketing program:
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
+
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
 ### Business Task
@@ -86,31 +86,31 @@ I will use Cyclistic’s historical trip data to analyze and identify trends fro
 
 There are 4 files with naming convention of YYYYMM-divvy-tripdata and it has 13 columns - 
 
-Ride_id — A unique ID assigned to each ride
+Ride_id — A unique ID assigned to each ride,
 
-Rideable_type — Type of bike used in the ride
+Rideable_type — Type of bike used in the ride,
 
-Started_at — Start date and time
+Started_at — Start date and time,
 
-Ended_at — End date and time
+Ended_at — End date and time,
 
-Start_station_name — Name of the station from where the ride starts
+Start_station_name — Name of the station from where the ride starts,
 
-Start_station_id — Unique ID of the station from where the ride starts
+Start_station_id — Unique ID of the station from where the ride starts,
 
-End_station_name — Name of the station where the rids ends
+End_station_name — Name of the station where the rids ends,
 
-End_station_id — Unique ID of the station where the rid ends
+End_station_id — Unique ID of the station where the rid ends,
 
-Start_lat — Latitude of the starting station
+Start_lat — Latitude of the starting station,
 
-Start_lng — Longitude of the starting station
+Start_lng — Longitude of the starting station,
 
-End_lat — Latitude of the ending station
+End_lat — Latitude of the ending station,
 
-End_lng — Longitude of the ending station
+End_lng — Longitude of the ending station,
 
-Member_casual — Type of membership, either member or casual
+Member_casual — Type of membership, either member or casual.
 
 # Process
 
@@ -124,12 +124,29 @@ SQL QUERY - [Renaming Columns](https://console.cloud.google.com/bigquery?sq=9797
 
 First of all, I renamed 8 columns and they are as follows -
 
-started_at -> start_time
-ended_at ->  end_time
-start_station_name -> from_station_name
-start_station_id -> station_id
-end_station_name -> to_station_name
-end_station_id -> to_station_id
-rideable_type -> bike_id
-member_casual -> usertype
+started_at -> start_time,
+ended_at ->  end_time,
+start_station_name -> from_station_name,
+start_station_id -> station_id,
+end_station_name -> to_station_name,
+end_station_id -> to_station_id,
+rideable_type -> bike_id,
+member_casual -> usertype.
+
+### Data Combining
+
+SQL QUERY - [Data Combining](https://console.cloud.google.com/bigquery?sq=979731993765:809146a2da314d4db49d768dd9f77685&project=case-study-1-398516)
+
+4 csv files are uploaded in the dataset. Another table named "Tripdata_combined" is created, containing more than 600k of data for the quarter.
+
+### Data Exploration
+
+SQL QUERY - [Data Exploration](https://console.cloud.google.com/bigquery?sq=979731993765:f1b45c581c724d679d7f2c32296eab7e&project=case-study-1-398516)
+
+Prior to data cleaning, I am acquainting myself with the data to identify any inconsistencies.
+
+My observations - 
+
+1. The table below shows the all column names and their data types. The ride_id column is our primary key.
+   ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/75d5421f-41f8-4415-be5a-862d211bf4dd)
 
