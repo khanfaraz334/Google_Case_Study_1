@@ -112,4 +112,24 @@ End_lng — Longitude of the ending station
 
 Member_casual — Type of membership, either member or casual
 
+# Process
+
+I used BigQuery to combine 4 datasets into one and clean it. (Due to BigQuery limitation, I was able to use only 4 datasets). 
+Reason:
+I used BigQuery to analyze quarterly data (Jan-Apr) because of Excel's inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
+
+### Renaming Columns 
+
+SQL QUERY - [Renaming Columns](https://console.cloud.google.com/bigquery?sq=979731993765:e406e862513b4307ab61db82c02bf870&project=case-study-1-398516)
+
+First of all, I renamed 8 columns and they are as follows -
+
+started_at -> start_time
+ended_at ->  end_time
+start_station_name -> from_station_name
+start_station_id -> station_id
+end_station_name -> to_station_name
+end_station_id -> to_station_id
+rideable_type -> bike_id
+member_casual -> usertype
 
