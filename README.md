@@ -148,5 +148,13 @@ Prior to data cleaning, I am acquainting myself with the data to identify any in
 My observations - 
 
 1. The table below shows the all column names and their data types. The ride_id column is our primary key.
+   
    ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/75d5421f-41f8-4415-be5a-862d211bf4dd)
+
+2. The following table shows number of null values in each column.
+
+![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/6180ca68-1329-4b02-95dc-8c4a8de46638)
+
+3. 
+
 
