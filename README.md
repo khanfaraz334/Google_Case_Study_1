@@ -68,7 +68,8 @@ Three questions will guide the future marketing program:
 3. How can Cyclistic use digital media to influence casual riders to become members?
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
-#**Business Task**
+# **Business Task**
+
 To Design marketing strategies aimed at converting casual riders into annual members.
 
 Within Cyclistic, our membership base consists of two distinct categories: annual members, individuals who have invested in yearly subscriptions, and casual riders, users who acquire passes for individual rides or full-day access. Our marketing manager is keen on launching a campaign aimed at converting casual riders into annual members in order to optimize the company's overall success.
