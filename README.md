@@ -75,3 +75,40 @@ To Design marketing strategies aimed at converting casual riders into annual mem
 Within Cyclistic, our membership base consists of two distinct categories: annual members, individuals who have invested in yearly subscriptions, and casual riders, users who acquire passes for individual rides or full-day access. Our marketing manager is keen on launching a campaign aimed at converting casual riders into annual members in order to optimize the company's overall success.
   
 As a Data Analyst, my responsibility is to identify disparities in user behavior by utilizing the available trip data. This analysis aims to provide insights into the unique characteristics that set casual users apart from annual members.
+
+# Prepare
+
+# Data Source
+
+I will use Cyclistic’s historical trip data to analyze and identify trends from Jan 2022 to Apr 2022 which can be downloaded from [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc.
+
+# Data Sources Description
+
+There are 4 files with naming convention of YYYYMM-divvy-tripdata and it has 13 columns - 
+
+Ride_id — A unique ID assigned to each ride
+
+Rideable_type — Type of bike used in the ride
+
+Started_at — Start date and time
+
+Ended_at — End date and time
+
+Start_station_name — Name of the station from where the ride starts
+
+Start_station_id — Unique ID of the station from where the ride starts
+
+End_station_name — Name of the station where the rids ends
+
+End_station_id — Unique ID of the station where the rid ends
+
+Start_lat — Latitude of the starting station
+
+Start_lng — Longitude of the starting station
+
+End_lat — Latitude of the ending station
+
+End_lng — Longitude of the ending station
+
+Member_casual — Type of membership, either member or casual
+
