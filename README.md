@@ -68,7 +68,7 @@ Three questions will guide the future marketing program:
 3. How can Cyclistic use digital media to influence casual riders to become members?
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
-# **Business Task**
+### Business Task
 
 To Design marketing strategies aimed at converting casual riders into annual members.
 
@@ -78,11 +78,11 @@ As a Data Analyst, my responsibility is to identify disparities in user behavior
 
 # Prepare
 
-# Data Source
+### Data Source
 
 I will use Cyclistic’s historical trip data to analyze and identify trends from Jan 2022 to Apr 2022 which can be downloaded from [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc.
 
-# Data Sources Description
+### Data Sources Description
 
 There are 4 files with naming convention of YYYYMM-divvy-tripdata and it has 13 columns - 
 
@@ -111,4 +111,5 @@ End_lat — Latitude of the ending station
 End_lng — Longitude of the ending station
 
 Member_casual — Type of membership, either member or casual
+
 
