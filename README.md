@@ -17,8 +17,8 @@ SQL Queries:
 06. [Data Summary](https://console.cloud.google.com/bigquery?sq=979731993765:e4fb4faaa309402fa85465a0353fd921&project=case-study-1-398516)
 07. [Combined and Cleaned Data Table ](https://console.cloud.google.com/bigquery?sq=979731993765:3dbf9cf298a64b18bfe1d310a89850a0&project=case-study-1-398516)
 
-Data Visualizations: [Tableau Public Dashboard 1](https://public.tableau.com/app/profile/faraz.khan4967/viz/CASE_STUDY_1_16945439637200/Dashboard1)
-                     [Tableau Public Dashboard 2](https://public.tableau.com/authoring/CASE_STUDY_1_16945439637200/Dashboard2#1)
+Data Visualizations: [Tableau Public Dashboard 1](https://public.tableau.com/authoring/GOOGLE_CASE_STUDY_1/Sheet1/Bike_Rides_Dashboard_1#1)
+                     [Tableau Public Dashboard 2](https://public.tableau.com/authoring/GOOGLE_CASE_STUDY_1/Sheet1/Bike_Rides_Dashboard_2#1)
 # Scenario
 
 I am a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of
