@@ -155,6 +155,36 @@ My observations -
 
 ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/6180ca68-1329-4b02-95dc-8c4a8de46638)
 
-3. 
+3. As ride_id has no null values, let's use it to check for duplicates.
+
+   ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/1e941bcb-e21d-4514-af9b-357440bc1033)
+
+   There are no duplicates.
+
+4. Ride_id length is 16. There is no necessity to clean it.
+
+   ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/8eaa6e91-d617-4f5b-bf22-d36e0a0fe20d)
+
+5. Types of unique bikes(bike_id).
+
+   ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/e56d85b1-eeaa-4901-9c4e-633b123a7479)
+
+6. The "started_at" and "ended_at" columns indicate the beginning and conclusion times of the trips in the YYYY-MM-DD hh:mm:ss UTC format. To determine the overall trip duration, a new column called "ride_length" can be generated. However, it's important to note that there are trips with durations exceeding one day and others with durations less than a minute, or cases where the end time precedes the start time, which should be excluded from the analysis. Additionally, columns such as "day_of_week" and "month" can provide valuable insights when examining trips at various times throughout the year.
+
+7. Total of 152973 rows have both start_station_name and start_station_id missing which needs to be removed.
+
+8. Total of 164727 rows have both end_station_name and end_station_id missing which needs to be removed.
+
+9. Total of 746 rows have both end_lat and end_lng missing which needs to be removed.
+
+10. member_casual column has 2 uniqued values as member or casual rider.
+
+    ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/58bda5e3-a941-40a6-8d8b-e84cc9a318ac)
+
+11. The columns can be excluded from our analysis are "start_station_id" and "end_station_id" as they do not contribute to solving our current problem. But these columns alongwith longitude and latitude location columns may not be utilized in the analysis itself, they can be employed for visualizing a map.
+
+
+
+
 
 
