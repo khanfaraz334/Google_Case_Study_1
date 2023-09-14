@@ -120,7 +120,7 @@ I used BigQuery to analyze first quarter data (Jan-Apr) because of Excel's inabi
 
 ### Renaming Columns 
 
-SQL QUERY - [Renaming Columns](https://console.cloud.google.com/bigquery?sq=979731993765:e406e862513b4307ab61db82c02bf870&project=case-study-1-398516)
+SQL QUERY - [Renaming Columns](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Renaming%20Columns.sql)
 
 First of all, I renamed 8 columns and they are as follows -
 
@@ -135,13 +135,13 @@ member_casual -> usertype.
 
 ### Data Combining
 
-SQL QUERY - [Data Combining](https://console.cloud.google.com/bigquery?sq=979731993765:809146a2da314d4db49d768dd9f77685&project=case-study-1-398516)
+SQL QUERY - [Data Combining](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Data%20Combining.sql)
 
 4 csv files are uploaded in the dataset. Another table named "Tripdata_combined" is created, containing more than 600k of data for the quarter.
 
 ### Data Exploration
 
-SQL QUERY - [Data Exploration](https://console.cloud.google.com/bigquery?sq=979731993765:f1b45c581c724d679d7f2c32296eab7e&project=case-study-1-398516)
+SQL QUERY - [Data Exploration](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Data%20Exploration.sql)
 
 Prior to data cleaning, I am acquainting myself with the data to identify any inconsistencies.
 
@@ -185,7 +185,7 @@ My observations -
     
 ### Data Cleaning
 
-SQL QUERY - [Data Cleaning](https://console.cloud.google.com/bigquery?sq=979731993765:45fe7bf71e6a4e37986b37f02296cbae&project=case-study-1-398516)
+SQL QUERY - [Data Cleaning](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Data%20Cleaning.sql)
 
 1. All the rows having missing values are deleted.
 2. 6 more columns are added and they are ride_length_m, day_of_week, month, day, year and time.
@@ -195,7 +195,7 @@ SQL QUERY - [Data Cleaning](https://console.cloud.google.com/bigquery?sq=9797319
 
 # Analyze
 
-SQL QUERY - [Data Analysis](https://console.cloud.google.com/bigquery?sq=979731993765:3a0d1911df064b9d93afe17dcabbe96d&project=case-study-1-398516&ws=!1m4!1m3!8m2!1s979731993765!2s3a0d1911df064b9d93afe17dcabbe96d)
+SQL QUERY - [Data Analysis](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Data%20Analysis.sql)
 
 With the data now cleaned, I am poised to delve into the analysis, addressing the query: "How do annual members and casual riders use Cyclistic bikes differently?" This inquiry encompasses two principal facets: examining dissimilarities in time spent cycling and dissecting the routes chosen by each user category.
 
@@ -209,7 +209,7 @@ To scrutinize the aspect of time spent on the bicycle, I conducted a series of q
 
 # Share
 
-Downloaded cleaned data from the following query [Combined and Cleaned Data Table ](https://console.cloud.google.com/bigquery?sq=979731993765:3dbf9cf298a64b18bfe1d310a89850a0&project=case-study-1-398516) and stored it locally in csv format. Due to its size, I was not able to upload it on Git. 
+Downloaded cleaned data from the following query [Combined and Cleaned Data Table](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Cleaned%20%26%20Combined%20data%20exported%20to%20Excel%20CSV%20locally) and stored it locally in csv format. Due to its size, I was not able to upload it on Git. 
 
 Made visualizations using this csv file on [Tableau](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1).
 
