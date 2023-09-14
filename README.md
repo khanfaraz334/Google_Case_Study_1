@@ -189,6 +189,7 @@ My observations -
 2. 6 more columns are added and they are ride_length_m, day_of_week, month, day, year and time.
 3. Trips with duration less than a minute and longer than a day are excluded.
 4. Total around 200k rows are removed in this step.
+5. I renamed 8 columns.
 
 
 
