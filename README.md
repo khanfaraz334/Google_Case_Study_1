@@ -182,6 +182,14 @@ My observations -
     ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/58bda5e3-a941-40a6-8d8b-e84cc9a318ac)
 
 11. The columns can be excluded from our analysis are "start_station_id" and "end_station_id" as they do not contribute to solving our current problem. But these columns alongwith longitude and latitude location columns may not be utilized in the analysis itself, they can be employed for visualizing a map.
+    
+## Data Cleaning
+
+1. All the rows having missing values are deleted.
+2. 6 more columns are added and they are ride_length_m, day_of_week, month, day, year and time.
+3. Trips with duration less than a minute and longer than a day are excluded.
+4. Total around 200k rows are removed in this step.
+
 
 
 
