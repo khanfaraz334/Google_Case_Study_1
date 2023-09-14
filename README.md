@@ -211,6 +211,8 @@ To scrutinize the aspect of time spent on the bicycle, I conducted a series of q
 
 Downloaded cleaned data from the following query [Combined and Cleaned Data Table](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Cleaned%20%26%20Combined%20data%20exported%20to%20Excel%20CSV%20locally) and stored it locally in csv format. Due to its size, I was not able to upload it on Git. 
 
+I exported Excel csv file from Big Query after cleaning it. You can download my exported csv file from [here](https://drive.google.com/file/d/167V1tbdIIgP6Uyh5P45YdzgOmUENjcCj/view) 
+
 Made visualizations using this csv file on [Tableau](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1).
 
 During this stage of the project, I'm excited to present the insights I've derived from my analysis through compelling visualizations created with Tableau. To enhance your understanding and overall experience, I strongly encourage you to explore the interactive dashboard available at this [link](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1)
