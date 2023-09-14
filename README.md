@@ -116,7 +116,7 @@ Member_casual — Type of membership, either member or casual.
 
 I used BigQuery to combine 4 datasets into one and clean it. (Due to BigQuery limitation, I was able to use only 4 datasets). 
 Reason:
-I used BigQuery to analyze quarterly data (Jan-Apr) because of Excel's inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
+I used BigQuery to analyze first quarter data (Jan-Apr) because of Excel's inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
 
 ### Renaming Columns 
 
@@ -185,14 +185,78 @@ My observations -
     
 ### Data Cleaning
 
+SQL QUERY - [Data Cleaning](https://console.cloud.google.com/bigquery?sq=979731993765:45fe7bf71e6a4e37986b37f02296cbae&project=case-study-1-398516)
+
 1. All the rows having missing values are deleted.
 2. 6 more columns are added and they are ride_length_m, day_of_week, month, day, year and time.
 3. Trips with duration less than a minute and longer than a day are excluded.
 4. Total around 200k rows are removed in this step.
 5. I renamed 8 columns.
 
+# Analyze
+
+[Data Analysis](https://console.cloud.google.com/bigquery?sq=979731993765:3a0d1911df064b9d93afe17dcabbe96d&project=case-study-1-398516&ws=!1m4!1m3!8m2!1s979731993765!2s3a0d1911df064b9d93afe17dcabbe96d)
+
+With the data now cleaned, I am poised to delve into the analysis, addressing the query: "How do annual members and casual riders use Cyclistic bikes differently?" This inquiry encompasses two principal facets: examining dissimilarities in time spent cycling and dissecting the routes chosen by each user category.
+
+To scrutinize the aspect of time spent on the bicycle, I conducted a series of queries. These inquiries aimed to uncover various aspects of ride duration, such as average ride length, minimum ride duration, and maximum ride duration, with a focus on both minutes and hours. Additionally, I sought to identify temporal trends, exploring when people are most inclined to ride the bikes in terms of days and months. The following queries were employed for this purpose:
+
+1. Trip time analysis to calculate bike ride minutes (average ride length, minimum ride length, and maximum ride length).
+2. Trip time to calculate when the bike ride is mostly being used throughout the week (Monday — Sunday).
+3. Analysis of when bike rides are popular throughout the months of the first quarter (January — April).
+4. Analysis of the popular hours each user rides the bikes.
+5. Analysis of the stations of each bike ride (most and least popular start and end stations for members and non-members).
+
+# Share
+
+Downloaded cleaned data from the following query [Combined and Cleaned Data Table ](https://console.cloud.google.com/bigquery?sq=979731993765:3dbf9cf298a64b18bfe1d310a89850a0&project=case-study-1-398516) and stored it locally in csv format. 
+
+Made visualizations using this csv file on Tableau.
+
+During this stage of the project, I'm excited to present the insights I've derived from my analysis through compelling visualizations created with Tableau. To enhance your understanding and overall experience, I strongly encourage you to explore the interactive dashboard available at this [link](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1)
+
+![Bike Preference_Worksheet_1](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/c928046f-af1d-4c7e-9ff7-a4f820c59d8c)
+
+Key Findings 1 - It appears that classic bikes enjoy greater popularity among both members and non-members, suggesting that they may represent the most marketable option for promoting Cyclistic's services.
+
+![Day Wise Trend_Worksheet_2](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/5aede7df-c47a-43e0-9848-f8a132355b7a)
+
+Key Findings 2 - It's plausible to infer that members predominantly utilize the bikes for work-related purposes, as indicated by their higher usage on weekdays. Conversely, non-members seem to favor leisurely rides, as reflected in their increased bike usage on Saturdays and Sundays.
+
+![Monthly Ride Trend_Worksheet_3](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/583a4106-edbd-4953-8a5c-843d440f13cb)
+
+Key Findings 3 - The observed trend of increased bike usage for each user category may be influenced by a multitude of factors.
+
+![Hourly Ride Trend_Worksheet_4](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/16a9306f-bf82-48c5-9816-518312a1663a)
+
+Key Findings 4 - It's evident from the data that member riders exhibit a clear pattern of bike usage during typical work hours, with rides starting around 8 am and concluding around 6 pm. In contrast, non-members display a less pronounced spike in their start and end times, suggesting a more varied usage pattern that includes leisurely rides.
+
+To attract more members, the company could consider offering specialized packages tailored to users who primarily use bikes for leisure activities, thus catering to a broader range of customer preferences.
+
+![Average Monthly Ride_Worksheet_5](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/a16db41e-eefb-4d6b-94fe-51ebd54a8b05)
+
+Key Findings 5 - Members have a higher average number of rides per month than non-members in every month.
+
+![Ride Composition_Worksheet_6](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/64d94f05-f78e-4680-bc1d-c6b21c08ff42)
+
+Key Findings 6 - The actual percentage of casual rides in the first quarter is 28.80% and for members is 71.20%. 
+
+![Trips at Start Station_Worskheet_7](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/23cda6fd-44b9-43cb-89e8-1dda79383431)
+
+Key Findings 7 - Map showing locations on which each user starts. 
+
+### Summary of Key Takeaways/Findings - 
+
+Key Takeaways:
+
+1. In Quarter 1, members primarily use the bikes for work purposes, while non-members tend to use them for leisure.
+2. Quarter 1 members favor weekday bike usage, whereas non-members prefer weekends.
+3. Both user groups show a preference for classic bikes over electric ones.
+4. The average ride time for members is shorter than that for casual riders, with member riders averaging 11.22 minutes compared to 25.06 minutes for casual riders.
+   ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/5e0d3389-05fc-4fe2-a446-85a48cbd3f53)
 
 
+   
 
 
 
