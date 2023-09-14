@@ -6,9 +6,9 @@ I'll carry out a lot of the real-world tasks of a junior data analyst at the fic
 
 # Links
 
-Data Source: [Bicycle dataset](https://divvy-tripdata.s3.amazonaws.com/index.html)
+1. Data Source: [Bicycle dataset](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-SQL Queries:
+2. SQL Queries:
 01. [Data Combining](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Data%20Combining.sql)
 02. [Data Exploration](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Data%20Exploration.sql)
 03. [Data Cleaning](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Data%20Cleaning.sql)
@@ -16,9 +16,11 @@ SQL Queries:
 05. [Renaming Columns](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Renaming%20Columns.sql)
 06. [Combined and Cleaned Data Table](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Cleaned%20%26%20Combined%20data%20exported%20to%20Excel%20CSV%20locally)
 
-You can find my Queries on [Big Query](https://console.cloud.google.com/bigquery?project=case-study-1-398516&ws=!1m0)
+3. You can find my Queries on [Big Query](https://console.cloud.google.com/bigquery?project=case-study-1-398516&ws=!1m0)
 
-Data Visualizations: [Tableau Public Dashboard 1](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1)
+4. I exported Excel csv file from Big Query after cleaning it. You can download my cleaned exported csv file from [here](https://drive.google.com/file/d/167V1tbdIIgP6Uyh5P45YdzgOmUENjcCj/view)
+   
+5. Data Visualizations: [Tableau Public Dashboard 1](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1)
                      [Tableau Public Dashboard 2](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_2)
 # Scenario
 
