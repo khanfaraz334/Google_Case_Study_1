@@ -254,6 +254,17 @@ Key Takeaways:
    ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/5e0d3389-05fc-4fe2-a446-85a48cbd3f53)
 
 
+# Act
+
+Upon recognizing the distinctions between casual and member riders, the company can develop tailored marketing strategies aimed at enticing casual riders to transition into becoming members.
+
+### Recommendations 
+
+1. Recognize that casual riders are predominantly active on weekends and during the summer and spring. Offer special seasonal or weekend-only membership packages to cater to their preferred riding times.
+2. As casual riders tend to use bikes for longer durations compared to members, consider introducing discounts or incentives for longer rides. This strategy can both attract casual riders and encourage existing members to extend their ride times.
+3. When marketing Cyclistic bikes, it's advisable to prominently feature classic bikes as the primary model in your promotional materials. This choice aligns with the preference of the majority of users, who tend to favor classic bikes over other models. Highlighting what your target audience prefers can be a compelling way to attract and engage potential customers.
+
+
    
 
 
