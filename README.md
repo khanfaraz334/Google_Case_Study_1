@@ -116,7 +116,7 @@ Member_casual — Type of membership, either member or casual.
 
 I used BigQuery to combine 4 datasets into one and clean it. (Due to BigQuery limitation, I was able to use only 4 datasets). 
 Reason:
-I used BigQuery to analyze first quarter data (Jan-Apr) because of Excel's inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
+I used BigQuery to analyze first quarter data (Jan-Apr) because of Excel's inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data. SQL files can't be downloaded from Big Query due to which I had to create links. You will find all queries in the links which I made.
 
 ### Renaming Columns 
 
@@ -209,7 +209,7 @@ To scrutinize the aspect of time spent on the bicycle, I conducted a series of q
 
 # Share
 
-Downloaded cleaned data from the following query [Combined and Cleaned Data Table ](https://console.cloud.google.com/bigquery?sq=979731993765:3dbf9cf298a64b18bfe1d310a89850a0&project=case-study-1-398516) and stored it locally in csv format. 
+Downloaded cleaned data from the following query [Combined and Cleaned Data Table ](https://console.cloud.google.com/bigquery?sq=979731993765:3dbf9cf298a64b18bfe1d310a89850a0&project=case-study-1-398516) and stored it locally in csv format. Due to its size, I was not able to upload it on Git. 
 
 Made visualizations using this csv file on [Tableau](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1).
 
