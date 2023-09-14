@@ -80,7 +80,7 @@ As a Data Analyst, my responsibility is to identify disparities in user behavior
 
 ### Data Source
 
-I will use Cyclistic’s historical trip data to analyze and identify trends from Jan 2022 to Apr 2022 which can be downloaded from [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc.
+I will use Cyclistic’s historical trip data to analyze and identify trends from Jan 2022 to Apr 2022 (first quarter) which can be downloaded from [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc.
 
 ### Data Sources Description
 
