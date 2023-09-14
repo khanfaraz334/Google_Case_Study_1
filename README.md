@@ -183,7 +183,7 @@ My observations -
 
 11. The columns can be excluded from our analysis are "start_station_id" and "end_station_id" as they do not contribute to solving our current problem. But these columns alongwith longitude and latitude location columns may not be utilized in the analysis itself, they can be employed for visualizing a map.
     
-## Data Cleaning
+### Data Cleaning
 
 1. All the rows having missing values are deleted.
 2. 6 more columns are added and they are ride_length_m, day_of_week, month, day, year and time.
