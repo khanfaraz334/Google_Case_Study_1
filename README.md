@@ -195,7 +195,7 @@ SQL QUERY - [Data Cleaning](https://console.cloud.google.com/bigquery?sq=9797319
 
 # Analyze
 
-[Data Analysis](https://console.cloud.google.com/bigquery?sq=979731993765:3a0d1911df064b9d93afe17dcabbe96d&project=case-study-1-398516&ws=!1m4!1m3!8m2!1s979731993765!2s3a0d1911df064b9d93afe17dcabbe96d)
+SQL QUERY - [Data Analysis](https://console.cloud.google.com/bigquery?sq=979731993765:3a0d1911df064b9d93afe17dcabbe96d&project=case-study-1-398516&ws=!1m4!1m3!8m2!1s979731993765!2s3a0d1911df064b9d93afe17dcabbe96d)
 
 With the data now cleaned, I am poised to delve into the analysis, addressing the query: "How do annual members and casual riders use Cyclistic bikes differently?" This inquiry encompasses two principal facets: examining dissimilarities in time spent cycling and dissecting the routes chosen by each user category.
 
