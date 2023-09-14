@@ -15,7 +15,8 @@ SQL Queries:
 04. [Data Analysis](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Data%20Analysis.sql)
 05. [Renaming Columns](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Renaming%20Columns.sql)
 06. [Combined and Cleaned Data Table](https://github.com/khanfaraz334/Google_Case_Study_1/blob/main/Cleaned%20%26%20Combined%20data%20exported%20to%20Excel%20CSV%20locally)
-07. [Big Query](https://console.cloud.google.com/bigquery?project=case-study-1-398516&ws=!1m0)
+
+You can find my Queries on [Big Query](https://console.cloud.google.com/bigquery?project=case-study-1-398516&ws=!1m0)
 
 Data Visualizations: [Tableau Public Dashboard 1](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1)
                      [Tableau Public Dashboard 2](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_2)
