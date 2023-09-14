@@ -211,7 +211,7 @@ To scrutinize the aspect of time spent on the bicycle, I conducted a series of q
 
 Downloaded cleaned data from the following query [Combined and Cleaned Data Table ](https://console.cloud.google.com/bigquery?sq=979731993765:3dbf9cf298a64b18bfe1d310a89850a0&project=case-study-1-398516) and stored it locally in csv format. 
 
-Made visualizations using this csv file on Tableau.
+Made visualizations using this csv file on [Tableau](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1).
 
 During this stage of the project, I'm excited to present the insights I've derived from my analysis through compelling visualizations created with Tableau. To enhance your understanding and overall experience, I strongly encourage you to explore the interactive dashboard available at this [link](https://public.tableau.com/app/profile/faraz.khan4967/viz/GOOGLE_CASE_STUDY_1/Bike_Rides_Dashboard_1)
 
@@ -241,10 +241,6 @@ Key Findings 5 - Members have a higher average number of rides per month than no
 
 Key Findings 6 - The actual percentage of casual rides in the first quarter is 28.80% and for members is 71.20%. 
 
-![Trips at Start Station_Worskheet_7](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/23cda6fd-44b9-43cb-89e8-1dda79383431)
-
-Key Findings 7 - Map showing locations on which each user starts. 
-
 ### Summary of Key Takeaways/Findings - 
 
 Key Takeaways:
@@ -253,6 +249,8 @@ Key Takeaways:
 2. Quarter 1 members favor weekday bike usage, whereas non-members prefer weekends.
 3. Both user groups show a preference for classic bikes over electric ones.
 4. The average ride time for members is shorter than that for casual riders, with member riders averaging 11.22 minutes compared to 25.06 minutes for casual riders.
+
+   
    ![image](https://github.com/khanfaraz334/Google_Case_Study_1/assets/62903466/5e0d3389-05fc-4fe2-a446-85a48cbd3f53)
 
 
